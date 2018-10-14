@@ -1,3 +1,5 @@
+copy the given audio in the same directory of as where your .py file id present and run the programe 
+
 # Hidden Markov Model
 The model can be divided into 5 basic steps as follows
 # STEP 1 : Digital To Analog Convertion
