@@ -1,4 +1,4 @@
-copy the given audio in the same directory of as where your .py file id present and run the programe 
+copy the given audio in the same directory  as where your .py file is present in folder name audio and run the programe 
 
 # Hidden Markov Model
 The model can be divided into 5 basic steps as follows
