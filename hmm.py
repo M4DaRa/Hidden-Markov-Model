@@ -277,7 +277,7 @@ print('Size of testing matrix:', X_test.shape)
 ys = set(all_labels)
 ms = [gmmhmm(6) for y in ys]
 _ = [m.fit(X_train[y_train == y, :, :]) for m, y in zip(ms, ys)]
-ps = [m.transform(X_test) for m in ms]
+ps = [m.transform(X_test) for m in ms]  //Changing this line can make this project capable to predict audio samples of your own
 res = np.vstack(ps)
 predicted_labels = np.argmax(res, axis=0)
 missed = (predicted_labels != y_test)
